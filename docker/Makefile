@@ -1,5 +1,5 @@
 buildDocker:
-	docker build docker -t mazuninky/bachelor-latex
+	docker build . -t mazuninky/bachelor-latex
 
 pushDocker:
 	docker push mazuninky/bachelor-latex

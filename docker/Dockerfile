@@ -7,3 +7,6 @@ RUN apk update && apk add \
     # texlive \ 
     texlive-full \
     && rm -rf /var/cache/apk/*
+
+RUN mkdir -p root/texmf/tex/latex/local/
+COPY llncs.cls root/texmf/tex/latex/local/
