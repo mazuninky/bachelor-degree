@@ -1,11 +1,23 @@
 %%% Преамбула %%%
 
-\usepackage{graphicx}
+\usepackage{graphicx} % графика
+\graphicspath{ {inc/} } % путь до графики
 
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage[russian]{babel}
+\usepackage[utf8]{inputenc} % кодировка исходного текста
+\usepackage[T2A]{fontenc} % кодировка
+\usepackage[russian]{babel} % локализация и переносы
 
-% \usepackage[T2A]{fontenc}   % кодировка
-% \usepackage[utf8]{inputenc} % кодировка исходного текста
-% \usepackage[russian]{babel} % локализация и переносы
+\usepackage{multicol}
+% \usepackage[caption=false]{wrapfig}
+
+\usepackage{float}
+
+\usepackage{listings} % листинг кода
+
+% \usepackage{caption}
+\usepackage{subcaption}
+
+\captionsetup{compatibility=false}
+
+\usepackage{algorithm}
+\usepackage{algpseudocode}

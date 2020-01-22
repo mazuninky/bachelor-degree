@@ -162,17 +162,17 @@
  \def\ackname{Acknowledgement.}
  \def\andname{и}
  \def\lastandname{\unskip, и}
- \def\appendixname{Appendix}
+ \def\appendixname{Аппендикс}
  \def\chaptername{Глава}
  \def\claimname{Claim}
  \def\conjecturename{Conjecture}
  \def\contentsname{Table of Contents}
  \def\corollaryname{Corollary}
  \def\definitionname{Definition}
- \def\examplename{Example}
+ \def\examplename{Пример}
  \def\exercisename{Exercise}
  \def\figurename{Рис.}
- \def\keywordname{{\bf Keywords:}}
+ \def\keywordname{{\bf Ключевые слова:}}
  \def\indexname{Index}
  \def\lemmaname{Лемма}
  \def\contriblistname{List of Contributors}
@@ -182,8 +182,8 @@
  \def\noteaddname{Note added in proof}
  \def\notename{Note}
  \def\partname{Part}
- \def\problemname{Problem}
- \def\proofname{Proof}
+ \def\problemname{Проблема}
+ \def\proofname{Доказательство}
  \def\propertyname{Property}
  \def\propositionname{Proposition}
  \def\questionname{Question}
